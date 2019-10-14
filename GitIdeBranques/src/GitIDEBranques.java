@@ -3,12 +3,12 @@ public class GitIDEBranques {
 
 	public static void main(String[] args) {
 		
-		int [] numeros = new int [500000];
+		int [] numeros = new int [700000];
 		
 		 int numeroAbuscar = (int) Math.floor(Math.random()*1000+1);
 		 int contador = 0;
 		
-		for (int i = 0; i< numeros.length; i++) {
+		for (int i = 0; i< numeros.length; i+=2) {
 			numeros[i] = (int) Math.floor(Math.random()*5000+1);
 		}
 		
